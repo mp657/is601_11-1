@@ -76,6 +76,10 @@ switch( $action ) {
     $task_list[$task_index] = $prior_task_value;
     break;
     }
+
+    case 'Sort Tasks':
+    sort($task_list);
+    break;
 /*
     case 'Modify Task':
     
