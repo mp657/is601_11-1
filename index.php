@@ -55,6 +55,10 @@ switch( $action ) {
     $task_list[$i] = $modified_task;
     $modified_task = '';
     }
+    break;
+    case 'Cancel Changes':
+    $modified_task = '';
+    break;
 /*
     case 'Modify Task':
     
